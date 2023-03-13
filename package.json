@@ -1,7 +1,27 @@
 {
   "dependencies": {
     "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "mysql2": "^3.2.0",
     "sequelize": "^6.29.3"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "orm-ecomm",
+  "description": "Challenge 13 - ORM : Challenge is to build the back end for an e-commerce site. Take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannikaml/express-ecomm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannikaml/express-ecomm/issues"
+  },
+  "homepage": "https://github.com/dannikaml/express-ecomm#readme"
 }
