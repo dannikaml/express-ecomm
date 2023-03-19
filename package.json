@@ -12,7 +12,6 @@
   "description": "Challenge 13 - ORM : Challenge is to build the back end for an e-commerce site. Take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dannikaml/express-ecomm.git"
@@ -22,6 +21,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dannikaml/express-ecomm/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
   },
   "homepage": "https://github.com/dannikaml/express-ecomm#readme"
 }
